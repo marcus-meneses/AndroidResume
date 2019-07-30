@@ -1,0 +1,172 @@
+/* reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Roboto';
+    vertical-align: baseline
+  }
+  
+  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block }
+  
+  body { line-height: 1 }
+  
+  ol, ul { list-style: none }
+  
+  blockquote, q { quotes: none }
+  
+  blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0
+  }
+  
+  /* core css */
+  
+  html, body { overflow: hidden; }
+  
+  .background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    height: 130vh;
+    position: fixed;
+    width: 100%;
+
+    -webkit-transition: all 1.4s cubic-bezier(0.22, 0.44, 0, 1);
+    transition: all 1.4s cubic-bezier(0.22, 0.44, 0, 1);
+  }
+  
+  .background:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+
+ 
+ .all-loaded {
+    opacity: 1;
+    visibility: visible;
+}
+
+  .background:first-child {
+    background-image: url('../img/bg1.jpg');
+  
+  }
+
+  .content-title {
+    font-size: 12vh;
+    line-height: 1.4;
+  }
+
+  .content-minititle {
+    font-size: 6vh;
+    line-height: 1.1;
+  }
+
+  .content-minisubtitle {
+    font-family: 'Roboto-Thin';
+    font-size: 3vh;
+    line-height: 1.1;
+  }
+
+  .content-minisubtitle2 {
+    text-transform: none;
+    font-family: 'Roboto-Regular';
+    font-size: 2.5vh;
+    line-height: 1.1;
+    
+  }
+  
+  .background:first-child.content-wrapper {
+    height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    color: #fff;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+ 
+    will-change: transform;
+  
+    -webkit-transition: all 1.9s cubic-bezier(0.22, 0.44, 0, 1);
+    transition: all 1.9s cubic-bezier(0.22, 0.44, 0, 1);
+  }
+
+
+  .content-wrapper {
+    height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    color: #fff;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+ 
+    will-change: transform;
+  
+    -webkit-transition: all 1.9s cubic-bezier(0.22, 0.44, 0, 1);
+    transition: all 1.9s cubic-bezier(0.22, 0.44, 0, 1);
+  }
+
+
+  .content-wrapper-free {
+    height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    color: #fff;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+ 
+    will-change: transform;
+  
+    -webkit-transition: all 1.9s cubic-bezier(0.22, 0.44, 0, 1);
+    transition: all 1.9s cubic-bezier(0.22, 0.44, 0, 1);
+  }
+
+
